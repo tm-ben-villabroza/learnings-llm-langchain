@@ -9,4 +9,4 @@
 # Samples:
 1. ![Resume for React and Redux](./datasets/ben_tech_resume/conversation.PNG)
 2. ![Criminal Law in the Philippines](./datasets/PH_law_criminal/conversation.PNG)
-3. ![Fictional Universe: SCP](./datasets/ben_tech_resume/conversation.PNG)
+3. ![Fictional Universe: SCP](./datasets/scp/conversation.PNG)
