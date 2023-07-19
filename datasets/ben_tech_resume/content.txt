@@ -1,0 +1,128 @@
+Typescript
+Use
+Keys of an interface as a type: keyof
+Type casting: as
+Remove a key from an existing type: Omit 
+
+React
+Listener for onClickOutside events
+ 
+State management for Google-like suggestions
+Query Elasticsearch through API
+Match one string to multiple fields (not by me)
+ 
+Handle URL query parameters 
+Update RBAC
+ 
+Client-side filtering, sorting, and searching
+spaghetti code due to initially not accounting for null labels and/or values
+ 
+RTE
+including deployment
+uses TinyMCE
+ 
+Perform client-side sorting, filtering, and searching on a table
+ 
+React - Redux/Thunk
+await the state change of a dispatched action then dispatch another action with the updated state
+Query Elasticsearch through API
+Multiselect component (not by me)
+
+React - Jest
+Testing UI programmatically
+Click buttons programmatically
+Mock API calls 
+Type on fields programmatically 
+
+Python - Pydantic
+Data validation of HTML request 
+
+Django REST
+Query Elasticsearch with pagination 
+Create, Read, List, Update endpoints
+given a point, determine which polygon that point is in (heavily dependent on already existing 1GIE abstractions and already ingested ES documents)
+ 
+In-app and email notifs
+heavily dependent on already existing 1GIE infrastructure
+query Elasticsearch 
+
+Django REST Test
+Create test with mocking
+
+tRPC/Prisma
+Single-record CRUD operations
+
+Bigquery
+Add a UUID to a table
+ 
+Use CASE (if statement) in query
+
+Postgres
+Use JSON field
+
+Elasticsearch
+UI, API, ES Query
+Filters
+Dependent filters (Region -> City -> Brgy)
+Filter by date range
+Custom 
+
+Filter by text field/search bar
+ 
+Derive custom filters from ES entries
+ 
+ES Aggregations
+term aggregation 
+ 
+Django API endpoint 
+Queries ES
+Display data on table UI 
+Manage UI state with Redux
+React table/search
+ 
+Geospatial
+UI
+Render map
+Render markers
+Different marker image depending on data
+Render pop ups for each clicked marker
+Render legend
+ 
+Airflow
+Data pipeline: 
+GCS -> BQ
+BQ -> ES
+
+Full Dump Append
+don’t overwrite all existing data
+only overwrite data that meets a certain criteria
+all existing data that doesn’t meet the criteria are not affected
+
+Allow schema updates for BigQueryExecuteQueryOperator 
+
+Data Analysis
+Pandas
+concating multiple excel files
+deriving columns
+visualizing missing data
+determining uniqueness
+
+Machine Learning
+How are Q&A apps built: LLM + Vector DB
+
+Scripting
+Makefile for 
+starting Airflow
+starting Jupyter Notebook
+
+Infrastructure
+Backups
+BQ table snapshots
+CloudSQL backup
+CloudCompute snapshot
+
+Cloud Build
+Create a Postgres container for testing during deployment pipeline
+Test API endpoints without mocking record creation
+Use the Postgres container as the test DB
+ 
